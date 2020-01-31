@@ -1,0 +1,30 @@
+.ContactData{
+
+    margin:20px auto;
+    width: 80%px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-bottom: 5px solid #ff6a00;
+    box-shadow: 0 0 20px #8f5c2c;
+    
+    
+    
+}
+
+h2{
+    margin-bottom: 60px;
+
+
+}
+
+@media(min-width:600px){
+    .ContactData{
+        width: 700px;
+    }
+}
+.Select{
+    display:block;
+    text-align: center;
+    width:'80%';             
+}
