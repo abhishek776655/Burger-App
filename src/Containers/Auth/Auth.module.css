@@ -71,7 +71,7 @@
 
 @media (max-width:500px){
     .box{
-        width:70%;
+        width:90%;
         margin: auto;
         margin-top:150px;
         height: 350px;
@@ -89,7 +89,7 @@
         display: inline;
         margin:auto;
         padding:auto;
-        margin-top: 20px;
+        margin-top:20px;
 
     }
 }

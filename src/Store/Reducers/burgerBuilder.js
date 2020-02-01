@@ -34,7 +34,7 @@ const reducer = (state=initialState,action)=>{
                 ...state,
                 ingredients:{
                     ...state.ingredients,
-                    [action.ingredientsName]:state.ingredients[action.ingredientsName]+1
+                    [action.ingredientsName]:state.ingredients[action.ingredientsName]-1
                 },
                 totalPrice:state.totalPrice+INGREDIENTS_PRICE[action.ingredientsName],
                 building:true
